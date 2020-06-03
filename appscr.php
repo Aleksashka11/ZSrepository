@@ -3,7 +3,7 @@ $date_cons0=$_POST['dateapp'];
 $date_cons= (date('d-m-Y',strtotime($date_cons0)));
 
 $Time_start=$_POST['timeapp'];
-$Time_end=date('h:i',strtotime($Time_start . ' +30 minutes'));;
+$Time_end=date('H:i',strtotime($Time_start . ' +30 minutes'));;
 $Id_doctor=$_POST['doctor'];
 $Id_doctor+=1;
 $Id_doctor-=1;
