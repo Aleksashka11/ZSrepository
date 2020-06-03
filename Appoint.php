@@ -205,7 +205,7 @@
     <div id="content" >
 
     <div>
-      <form class="" action="sc/econscr.php" method="post">
+      <form class="" action="sc/appscr.php" method="post">
       <h4>Set an <b>online</b> consultation</h4>
       <p>Choose date and time:</p>
       <input type="date" name="dateapp" min=<?php echo date('m-d-Y'); ?>/>
